@@ -1,1 +1,116 @@
-Hello World
+<!-- index.html : Lucky b -->
+
+<html lang="eng">    
+    <head>
+        <title>Lucky b</title>
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 560px)" href="luckyb.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 559px)" href="luckyb-mobile.css">
+        <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script defer src="fontawesome-all.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>  
+    <body> 
+        <!-- Top Border -->
+        <img src="photos/topwhite.jpg" class="top white">
+        <img src="photos/topblue.jpg" class="top blue">
+        <!-- Left Side Border -->
+        <img src="photos/sidewhite.jpg" class="side white left">
+        <img src="photos/sideblue.jpg" class="side blue left">
+        <!-- Content -->
+        <div id="content">
+            <div id="index">
+                <p class="b">b</p>
+                <hr>
+                <div id="indexText" class="indexAlign">
+                    <div class="sidebarTooltip" tabindex="0">
+                        <a href="news" id="hardwareText"><p class="hvr-bold">NEWS </p></a>
+                    </div>
+                    <div class="sidebarTooltip" tabindex="0">
+                        <a href="tour" id="softwareText"><p class="hvr-bold">TOUR </p></a>
+                    </div>
+                    <div class="sidebarTooltip" tabindex="0">
+                        <a href="music" id="manufacturingText"><p class="hvr-bold">MUSIC </p></a>
+                    </div>
+                    <div class="sidebarTooltip" tabindex="0">
+                        <a href="videos" id="photographyText"><p class="hvr-bold">VIDEOS </p></a>
+                    </div>
+                    <div class="sidebarTooltip" tabindex="0">
+                        <a href="about" id="musicText"><p class="hvr-bold">ABOUT </p></a>
+                    </div>
+                </div>
+            </div>
+            <div id="photoWrapper">
+                <img id="portraitPic" src="photos/frontpagepic.png" width="100%">
+                <!--<img id="textPic" src="photos/text.png" width="50%">-->
+            </div>
+            <div id="description">
+                <br />
+                <p class="descriptionAlign" style="font-weight: bold">luckyyyy 🍀</p>
+                <p class="descriptionAlign">Crayola Coming Soon <u class="hvr-bold">
+                    <a href="crayola">teaser</a></u>.</p>
+                <div class="descriptionAlign">
+                    <div class="socialMediaTooltip">
+                        <a href="https://www.youtube.com/channel/UCGWAJHlEv4weZOKk5WNh3Cw" target="_blank">
+                            <span class="fab fa-youtube hvr-grow" style="padding-right: 0.55em"></span>
+                        </a>
+                        <p class="socialMediaTooltipInfo"> <span class="info">Youtube</span> </p>
+                    </div>
+                    <div class="socialMediaTooltip">
+                        <a href="https://instagram.com/kylelaviana" target="_blank">
+                            <span class="fab fa-instagram hvr-grow" style="padding-right: 0.5em"></span>
+                        </a>
+                        <p class="socialMediaTooltipInfo"> <span class="info">Insta</span> </p>
+                    </div>
+                    <div class="socialMediaTooltip">
+                        <a href="https://www.facebook.com/luckybeesknees/" target="_blank">
+                            <span class="fab fa-facebook hvr-grow" style="padding-right: 0.7em"></span>
+                        </a>
+                        <p class="socialMediaTooltipInfo"> <span class="info">Facebook</span> </p>
+                    </div>
+                    <div class="socialMediaTooltip">
+                        <a href="https://twitter.com/luckybeesknees" target="_blank">
+                            <span class="fab fa-twitter hvr-grow" style="padding-right: 0.7em"></span>
+                        </a>
+                        <p class="socialMediaTooltipInfo"> <span class="info">Twitter</span> </p>
+                    </div>
+                    <div class="socialMediaTooltip">
+                        <a href="mailto:b@luckyb.org">
+                            <span class="fa fa-envelope hvr-grow"></span>
+                        </a>
+                        <p class="socialMediaTooltipInfo"> <span class="info">b@luckyb.org</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Side Border -->
+        <img src="photos/sidewhite.jpg" class="side white right">
+        <img src="photos/sideblue.jpg" class="side blue right">
+        <!-- Bottom Border & Footer -->
+        <div id="bottomWrapper">
+            <img src="photos/topwhite.jpg" class="bottom white">
+            <img src="photos/topblue.jpg" class="bottom blue">
+        </div>
+        <script>
+            /* sidebar tooltip accessibility */
+            $(document).ready(function() {
+                $("div .sidebarLink").focusin(function() {
+                    $(this).parent().css({"visibility": "visible"});
+                    $(this).parent().parent().css({"opacity": "0.7"});
+                });
+                $("div .sidebarLink").focusout(function() {
+                    $(this).parent().css({"visibility": "hidden"});
+                    $(this).parent().parent().css({"opacity": "0.0"});
+                });
+            });
+        </script>
+    </body>
+</html>
