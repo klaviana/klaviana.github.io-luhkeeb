@@ -12,7 +12,7 @@ body {
 }
 
 .b {
-    color: rgb(255, 205, 46);
+    color: rgb(27, 156, 255);
     font-family: 'Long Cang', cursive;
     text-align: right;
     font-size: 50;
@@ -162,13 +162,13 @@ a {
     font-size: 20px;
     box-shadow: 3px 3px;
     background-color: white;
-    color:rgb(255, 205, 46);
+    color:rgb(27, 156, 255);
     font-family: 'Raleway';
     outline: none;
 }
 
 #homeButton:hover {
-    background-color: rgb(255, 205, 46);
+    background-color: rgb(27, 156, 255);
     color: white;
 }
 
@@ -231,7 +231,7 @@ audio {
     text-align: center;
     position: absolute;
     display: none;
-    background: rgb(180, 213, 240);
+    background: rgb(27, 156, 255);
     border: 1px solid #000000;
     border-radius: 3px;
     font-size: 0.875em;
@@ -263,7 +263,7 @@ audio {
 .socialMediaTooltip .socialMediaTooltipInfo:after {
     top: -20px;
     border: 11px solid transparent;
-    border-bottom-color: rgb(180, 213, 240);
+    border-bottom-color: rgb(27, 156, 255);
 }   
 
 /* control the triangle border */
@@ -298,7 +298,7 @@ audio {
     text-align: center;
     position: absolute;
     display: inline-block;
-    background: rgb(180, 213, 240);
+    background: rgb(27, 156, 255);
     border: 1px solid #000000;
     border-radius: 3px;
     font-size: 0.875em;
@@ -332,7 +332,7 @@ audio {
 .sidebarTooltip .sidebarTooltipInfo:after {
     top: var(--sidebarTrianglePosition);
     border: 11px solid transparent;
-    border-right-color: rgb(180, 213, 240);
+    border-right-color: rgb(27, 156, 255);
 }   
 
 /* control the triangle border */
