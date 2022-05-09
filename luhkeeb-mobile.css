@@ -168,6 +168,24 @@ a {
     outline: none;
 }
 
+#homeButton:hover {
+    /*background-color: rgb(27, 156, 255);*/
+    background-color: #209cfc;
+    color: white;
+}
+
+#homeButton.homeButtonBottom {
+    position: relative;
+    bottom: 20px;
+    top: auto;
+}
+
+/*
+#homeButtonBottom:hover {
+    background-color: #209cfc;
+    color: white;
+}
+
 #homeButtonBottom {
     position: relative;
     bottom: 20px;
@@ -177,23 +195,11 @@ a {
     font-size: 20px;
     box-shadow: 3px 3px;
     background-color: white;
-    /*color:rgb(27, 156, 255);*/
     color:rgb(256,204,52);
     font-family: 'Raleway';
     outline: none;
 }
-
-#homeButton:hover {
-    /*background-color: rgb(27, 156, 255);*/
-    background-color: #209cfc;
-    color: white;
-}
-
-#homeButtonBottom:hover {
-    /*background-color: rgb(27, 156, 255);*/
-    background-color: #209cfc;
-    color: white;
-}
+*/
 
 audio {
     filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
