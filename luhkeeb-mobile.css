@@ -1,5 +1,7 @@
 /* laviana-mobile.css : Kyle Laviana Online Portfolio */
 
+
+/* SCROLLBAR REMOVAL ON MOBILE ATTEMPTS */
 main {
     overflow: auto !important;
   }
@@ -10,7 +12,7 @@ html {
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
     border: 0px solid #000000;
     }
@@ -22,7 +24,7 @@ html {
 
 ::-webkit-scrollbar {
     width: 0px !important;
-    background: transparent !important; /* make scrollbar transparent */
+    background: transparent !important;
     -webkit-appearance: none !important;
     display: none !important;
 }
@@ -32,8 +34,24 @@ html {
   }
   .scrollbar-hidden {
     -ms-overflow-style: none !important;
-    scrollbar-width: none !important; /* Firefox */
+    scrollbar-width: none !important;
   }
+
+  body::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  body {
+overflow: hidden !important;
+-ms-overflow-style: none !important;
+scrollbar-width: none !important;
+overflow-y: hidden !important;
+position: absolute !important;
+}
+
+/* SCROLLBAR REMOVAL ATTEMPTS END */ 
 
 body {
     background-color: black;
@@ -44,20 +62,7 @@ body {
         -ms-animation: fadein 1s; /* Internet Explorer */
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
-    /*overflow: hidden; /* Hide scrollbars */
-    overflow: hidden !important;
-    -ms-overflow-style: none !important; /* for Internet Explorer, Edge */
-  scrollbar-width: none !important; /* for Firefox */
-  overflow-y: hidden !important;
-  position: absolute !important;
 }
-
-body::-webkit-scrollbar {
-    display: none !important; /* for Chrome, Safari, and Opera */
-    width: 0 !important;
-    height: 0 !important;
-  }
-
 
 #portraitPic {
     display: block;
