@@ -1,7 +1,7 @@
 /* laviana-mobile.css : Kyle Laviana Online Portfolio */
 
 main {
-    overflow: hidden;
+    overflow: auto;
   }
 
 html {
@@ -33,10 +33,10 @@ body {
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
     /*overflow: hidden; /* Hide scrollbars */
-    overflow: scroll;
+    overflow: hidden;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
+  overflow-y: hidden;
   position: absolute;
 }
 
