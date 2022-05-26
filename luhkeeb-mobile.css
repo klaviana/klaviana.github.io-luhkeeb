@@ -6,6 +6,7 @@ main {
 
 html {
     overflow:   scroll !important;
+    scrollbar-width: none;
   }
 
   ::-webkit-scrollbar-thumb {
