@@ -33,6 +33,7 @@ body {
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
     /*overflow: hidden; /* Hide scrollbars */
+    overflow: scroll;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
