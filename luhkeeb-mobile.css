@@ -1,26 +1,26 @@
 /* laviana-mobile.css : Kyle Laviana Online Portfolio */
 
 main {
-    overflow: auto;
+    overflow: auto !important;
   }
 
 html {
-    overflow:   scroll;
+    overflow:   scroll !important;
   }
 
 ::-webkit-scrollbar {
     width: 0px !important;
     background: transparent !important; /* make scrollbar transparent */
-    -webkit-appearance: none;
-    display: none;
+    -webkit-appearance: none !important;
+    display: none !important;
 }
 
 .scrollbar-hidden::-webkit-scrollbar {
-    display: none;
+    display: none !important;
   }
   .scrollbar-hidden {
-    -ms-overflow-style: none;
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important; /* Firefox */
   }
 
 body {
@@ -33,17 +33,17 @@ body {
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
     /*overflow: hidden; /* Hide scrollbars */
-    overflow: hidden;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: hidden;
-  position: absolute;
+    overflow: hidden !important;
+    -ms-overflow-style: none !important; /* for Internet Explorer, Edge */
+  scrollbar-width: none !important; /* for Firefox */
+  overflow-y: hidden !important;
+  position: absolute !important;
 }
 
 body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-    width: 0;
-    height: 0;
+    display: none !important; /* for Chrome, Safari, and Opera */
+    width: 0 !important;
+    height: 0 !important;
   }
 
 
