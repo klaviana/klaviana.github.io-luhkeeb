@@ -9,8 +9,8 @@ html {
   }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    width: 0px !important;
+    background: transparent !important; /* make scrollbar transparent */
     -webkit-appearance: none;
     display: none;
 }
