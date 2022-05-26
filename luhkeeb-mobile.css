@@ -8,6 +8,17 @@ html {
     overflow:   scroll !important;
   }
 
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    border: 0px solid #000000;
+    }
+    
+    ::-webkit-scrollbar-track {
+    border-radius: 0px; 
+    background-color: #000000; 
+    }
+
 ::-webkit-scrollbar {
     width: 0px !important;
     background: transparent !important; /* make scrollbar transparent */
