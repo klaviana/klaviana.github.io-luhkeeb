@@ -1,7 +1,7 @@
 /* laviana-mobile.css : Kyle Laviana Online Portfolio */
 
 
-/* SCROLLBAR REMOVAL ON MOBILE ATTEMPTS */
+/* SCROLLBAR REMOVAL ON MOBILE ATTEMPTS
 main {
     overflow: auto !important;
   }
@@ -51,7 +51,7 @@ overflow-y: hidden !important;
 position: absolute !important;
 }
 
-/* SCROLLBAR REMOVAL ATTEMPTS END */ 
+SCROLLBAR REMOVAL ATTEMPTS END */ 
 
 body {
     background-color: black;
@@ -66,7 +66,7 @@ body {
 
 #portraitPic {
     display: block;
-  margin-left: 4%;
+  margin-left: 6%;
   margin-right: auto;
 }
 
