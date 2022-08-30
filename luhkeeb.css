@@ -177,10 +177,11 @@ a {
 #homeButton {
     position: absolute;
     top: 20px;
+    bottom: auto !important;
     left: 20px;
     z-index: 2;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 20px !important;
     box-shadow: 3px 3px;
     background-color: white;
     color:rgb(27, 156, 255);
@@ -191,6 +192,20 @@ a {
 #homeButton:hover {
     background-color: rgb(27, 156, 255);
     color: white;
+}
+
+#expandButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 3px 3px;
+    background-color: white;
+    color:rgb(256,204,52);
+    font-family: 'Raleway';
+    outline: none;
 }
 
 audio {
