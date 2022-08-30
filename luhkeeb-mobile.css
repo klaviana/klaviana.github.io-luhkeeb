@@ -243,6 +243,11 @@ a {
     top: auto;
 }
 
+.homeButtonBottomSmall {
+    font-size: 5px; 
+    bottom: 10px
+}
+
 /*
 Home Button 2
 
