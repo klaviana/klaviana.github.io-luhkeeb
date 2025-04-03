@@ -224,10 +224,10 @@ a {
     z-index: 2;
     border-radius: 5px;
     border-color: #01070c;
-    font-size: 20px;
+    font-size: 10px; /* was 20 */
     box-shadow: 1px 1px;
     background-color: rgb(0, 0, 0);
-    color:rgb(256,204,52);
+    color: rgb(256,204,52);
     font-family: 'Raleway';
     outline: none;
 }
