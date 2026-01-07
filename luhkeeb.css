@@ -332,6 +332,10 @@ video.center {
     display: inline-block;
 }
 
+.emailNewsletter {
+    font-size: 14;
+}
+
 /********** sidebar tooltips **********/
 
 .sidebarTooltip {

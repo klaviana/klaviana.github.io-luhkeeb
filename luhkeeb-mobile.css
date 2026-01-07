@@ -425,6 +425,38 @@ video {
     display: inline-block;
 }
 
+.emailNewsletter {
+    text-align: right;
+    position: relative;
+    font-size: 10;
+}
+
+/*
+.emailNewsletter {
+    text-align: center;
+    position: absolute;
+    display: none;
+    background: rgb(27, 156, 255);
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 0.875em;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    left: -10px;
+    top: +22px;
+    height: 10px;
+    z-index: 2;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+    */
+
 /********** sidebar tooltips **********/
 
 .sidebarTooltip {
