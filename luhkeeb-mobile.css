@@ -76,6 +76,7 @@ body {
     font-family: 'Long Cang', cursive;
     text-align: right;
     font-size: 44;
+    margin-bottom: 30px;
 }
 
 hr {
@@ -200,13 +201,15 @@ a {
     left: 25%;
     top: -1vw;
     width: 50vw;
-    font-size: calc(6px + .7vw);
+    font-size: calc(6px + 1.3vw);
     z-index: -2;
 }
 
+/*
 .wittheb {
     font-size: calc(7px + .8vw);
 }
+    */
 
 .bottomText {
     position: fixed;
@@ -468,7 +471,7 @@ video {
 
 .sidebarTooltip {
     position: relative;
-    font-size: 1.18em;
+    font-size: 1.5em;
 }
 
 .opacityWrapper {
