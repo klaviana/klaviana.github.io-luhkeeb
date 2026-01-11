@@ -161,10 +161,10 @@ a {
     z-index: 0;
 }
 
-#index{
+#index {
     position: absolute;
     left: 10%;
-    top: calc(20px + 12%);
+    top: calc(20px + 15%);
     width: 25vw;
     font-size: calc(6px + .7vw);
 }
@@ -372,6 +372,9 @@ video {
 .fa-github:hover { color: #bd2c00; }
 .fa-facebook:hover { color: #3B5998; }
 .fa-instagram:hover { color: #7232bd; }
+.fa-youtube:hover { color: #FF0000; }
+.fa-spotify:hover { color: #1ED760; }
+.fa-itunes:hover { color: #EA4CC0; }
 .fa-file:hover { color: #98FB98; }
 .fa-envelope:hover { color: #FFA500; }
 
@@ -469,6 +472,11 @@ video {
     */
 
 /********** sidebar tooltips **********/
+
+#tooltipStrip {
+    /*font-size: calc(2px+ 1.2vw);*/
+    font-size: 1.2em;
+}
 
 .sidebarTooltip {
     position: relative;
