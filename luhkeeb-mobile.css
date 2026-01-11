@@ -67,7 +67,7 @@ body {
 #portraitPic {
     display: block;
     /*margin-left: 6%;*/
-    margin-left: 22%;
+    margin-left: 30%;
     margin-right: auto;
 }
 
@@ -205,11 +205,11 @@ a {
     z-index: -2;
 }
 
-/*
+/**/
 .wittheb {
-    font-size: calc(7px + .8vw);
+    font-size: calc(7px + 1.2vw);
 }
-    */
+    /**/
 
 .bottomText {
     position: fixed;
@@ -471,7 +471,7 @@ video {
 
 .sidebarTooltip {
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .opacityWrapper {
