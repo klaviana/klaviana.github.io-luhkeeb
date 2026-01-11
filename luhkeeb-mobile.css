@@ -67,7 +67,7 @@ body {
 #portraitPic {
     display: block;
     /*margin-left: 6%;*/
-    margin-left: 30%;
+    margin-left: 27%;
     margin-right: auto;
 }
 
@@ -207,7 +207,7 @@ a {
 
 /**/
 .wittheb {
-    font-size: calc(7px + 1.2vw);
+    font-size: calc(9px + .8vw);
 }
     /**/
 
