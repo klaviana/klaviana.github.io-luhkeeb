@@ -207,9 +207,10 @@ a {
 
 /**/
 .wittheb {
-    font-size: calc(9px + .8vw);
-}
-    /**/
+    /*font-size: calc(9px + .8vw);*/
+    font-size: calc(8px + 1.3vw);
+    }
+/**/
 
 .bottomText {
     position: fixed;
