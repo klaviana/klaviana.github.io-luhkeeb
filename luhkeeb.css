@@ -333,6 +333,8 @@ video.center {
 }
 
 .emailNewsletter {
+    text-align: right;
+    position: relative;
     font-size: 14;
 }
 
